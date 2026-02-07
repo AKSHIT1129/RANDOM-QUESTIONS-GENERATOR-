@@ -199,6 +199,7 @@ class QuizGUI:
 if __name__ == "__main__":
    
     sample_questions = [
+        #QUESTIONS...(YOU CAN ADD MULTIPLE IF YOU WANT, EVEN MATHEMATICAL QUESTIONS) AND N NUMBER OF QUESTIONS.
         Question("What is the capital of France?", 
                 ["London", "Berlin", "Paris", "Madrid"], 2),
         Question("What is capital of Australia?", 
@@ -220,3 +221,4 @@ if __name__ == "__main__":
     root.geometry("700x550")
     app = QuizGUI(root, sample_questions)
     root.mainloop()
+
